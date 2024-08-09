@@ -48,7 +48,7 @@ export default {
       {
         assets: ["package.json", "package-lock.json", "CHANGELOG.md"],
         message:
-          "release(version): Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+          "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },
     ],
     // "@semantic-release/github"
