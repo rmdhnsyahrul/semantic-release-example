@@ -3,7 +3,11 @@
 
 name: Semantic Release
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  release:
+    types: [created]  
+  push:
 
 jobs:
   build:
